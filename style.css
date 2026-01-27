@@ -7,15 +7,31 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
 #container {
     background-color: rgba(94, 97, 93, 0.9);
     display: flex;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 600px;
-    height: 725px;
+    width: 40%;
+    height: 90vh;
     border-radius: 40px;
     color: white;
+}
+
+.userValue {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    align-self: center;
 }
 
 form {
@@ -34,6 +50,23 @@ h1 {
 input {
     font-family: "Montserrat", sans-serif;
     padding: 10px;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #F7DBF0;
+    transition: background-color 0.3s ease;
+}
+
+input:hover {
+    background-color: #78DEC7;
+    cursor: pointer;
+}
+
+span {
+    align-self: center;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 #addTip {
@@ -70,4 +103,11 @@ input {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid black;
+}
+
+#dividedBill,
+#dividedTip,
+#billAndTip {
+    color: #8D0B41;
+    font-size: 25px;
 }
