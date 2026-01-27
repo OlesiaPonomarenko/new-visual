@@ -28,6 +28,8 @@ function calculateAmount(e) {
     document.querySelector('#dividedTip').textContent = tipPerPerson.toFixed(2);
     document.querySelector('#billAndTip').textContent = totalSum.toFixed(2);
 
+    document.querySelector('#showTotalAmountToPay').style.display = 'flex';
+
 }
 
 
