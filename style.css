@@ -111,3 +111,9 @@ button:hover {
     color: #8D0B41;
     font-size: 25px;
 }
+
+@media  all and (max-width: 500px) {
+    #container {
+        width: 90%;
+    }
+}
