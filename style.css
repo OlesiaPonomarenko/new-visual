@@ -16,7 +16,6 @@ body {
     background-color: rgba(94, 97, 93, 0.9);
     display: flex;
     justify-content: center;
-    flex-direction: column;
     flex-wrap: wrap;
     width: 40%;
     height: 90vh;
@@ -93,7 +92,6 @@ button:hover {
 
 #showTotalAmountToPay {
     display: flex;
-    flex-direction: row;
 }
 
 #billSpill,
